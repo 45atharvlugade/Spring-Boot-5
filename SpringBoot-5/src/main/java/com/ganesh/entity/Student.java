@@ -10,6 +10,8 @@ import lombok.NoArgsConstructor;
 @Entity
 @Data
 @NoArgsConstructor
+	// You Need to Use the RequiredArgsConstrcture  for this as you are using the lombok. 
+	// and on the entity which you want in the constructor on that field use the annatation on @Nonnull
 public class Student {
 	
 	
